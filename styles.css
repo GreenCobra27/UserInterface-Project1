@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-feature-settings: 'lnum' 1;
+}
+
+body { min-height: 100vh; }
+
+input[type="file"] {
+    display: none;
+}
+
+li {
+  display: list-item;
+  list-style-position: inside;
+}
+
+.topBar {
+  overflow: hidden;
+  background-color: #145DA0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topBar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topBar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.button {
+  background-color: #5a8dbc;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1 {
+  background-color: #bbb; 
+  color: white;
+}
+
+.button1:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.button2 {
+  background-color: #145DA0; 
+  color: white;
+}
+
+.button2:hover {
+  background-color: #5a8dbc;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0px;
+  text-align: center;
+}
+
+.columna1 {
+  float: left;
+  width: 5%;
+}
+
+.columnb {
+  float: right;
+  width: 30%;
+}
+
+.columnc {
+  float: left;
+  width: 15%;
+}
+
+.columnd {
+  float: left;
+  width: 15%;
+}
+
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}

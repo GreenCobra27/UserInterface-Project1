@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8", name="viewport", content="width=device-width, height=device-height, initial-scale=1">
+	<title>PhoneApp</title>
+
+	<link rel="stylesheet" href="styles.css">
+		
+</head>
+<body>
+	<div class="topBar">
+		<span style="font-size:30px; color:#FFFFFF; padding:10px", id="time">time</span>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column columna1" style="width: 100%">
+			<br>
+			<h2 style="text-align: center;">Payment</h2>
+			<button id="addItem" onclick="paid()" class="button button2" style="text-align:center; width:25%; position:absolute; bottom:50%; right:37%;">Click Here to Pay</button>
+			<br>
+			<label id="importList" class="button button2" style="text-align:center; width:25%; position:absolute; bottom:40%; right:37%;">
+				<input type="file" id="input">
+				Import List
+			</label>
+		</div>
+	</div>
+
+	<script src="main.js" defer></script>
+
+	<script>
+		window.addEventListener("storage", function () {
+			location.reload();
+		}, false);
+	</script>
+</body>
+</html>

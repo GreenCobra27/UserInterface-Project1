@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8", name="viewport", content="width=device-width, height=device-height, initial-scale=1">
+	<title>Checkout</title>
+
+	<link rel="stylesheet" href="styles.css">
+		
+</head>
+<body>
+	<div class="topBar">
+		<span style="font-size:30px; color:#FFFFFF; padding:10px", id="time">time</span>
+		<a href="file:///C:/Users/alexa/OneDrive/Documents/College%20Notes/Semester%206%20-%20Fall%202022/UI/SmartObject_Miller/Main.html">Main</a>
+		<a href="file:///C:/Users/alexa/OneDrive/Documents/College%20Notes/Semester%206%20-%20Fall%202022/UI/SmartObject_Miller/Settings.html">Settings</a>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column" style="width: 55%">
+			<br><br>
+			<h2 style="text-align: center;"><u>Items</u></h2>
+			<ol type="1" id="list" style="padding:10px; text-align: center;">
+
+			</ol>
+			<pre id="outputme"></pre>
+			<button id="addItem" onclick="checkout()" class="button button2" style="text-align:center; width:15%; position:absolute; bottom:0; right:30%;">Checkout</button>
+		</div>
+		<div class="column columnc" style="width: 15%">
+			<br><br>
+			<h2 style="text-align: center;"><u>Price</u></h2>
+			<ul id="price" style="padding:10px; text-align: center; list-style: none;">
+
+			</ul>
+		</div>
+
+		<div class="column columnb" style="height:98vh; background:#ccc;">
+			<br><br>
+			<h2 style="text-align: center;">Total</h2>
+			<br>
+			<p style="text-align: center;">$<span id="total">0.00</span></p>
+		</div>
+		<div>
+			<input type="file" name="inputfile" id="inputfile">
+		</div>
+	</div>
+
+	<script src="main.js" defer></script>
+
+	<script>
+	window.onload = function() {
+		checkoutPage();
+	};
+	</script>
+
+</body>
+</html>

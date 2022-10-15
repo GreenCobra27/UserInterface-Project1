@@ -1,0 +1,21 @@
+Welcome to my smart shopping cart!
+
+To begin, load Main.html and PhoneCompanion.html in the web browser of your choice.
+
+Main includes the primary functions of the application.
+
+PhoneCompanion is required for paying at checkout and allows an alternate way to import list.
+
+A sample list is included in this directory under the name "MockList". Use this for testing Import List features. 
+You may also make your own list under this directory using the same conventions as MockList. 
+If so, here are the items currently included in the store:
+
+Shirt
+Pants
+Dog Food
+Water
+Energy Drink
+Tomato Sauce
+Macaroni
+
+Enjoy using my app!

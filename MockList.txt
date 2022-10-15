@@ -1,0 +1,8 @@
+Shirt
+Pants
+Shoes
+Lightbulb
+Water
+Tomato Sauce
+Spaghetti
+Macaroni
