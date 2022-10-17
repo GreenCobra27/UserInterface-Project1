@@ -215,7 +215,7 @@ function checkout() {
   } else {
     alert("Total has been paid. Thank you for shopping with us!");
     localStorage.clear();
-    window.location.href = "file:///C:/Users/alexa/OneDrive/Documents/College%20Notes/Semester%206%20-%20Fall%202022/UI/SmartObject_Miller/Main.html";
+    window.location.href = "./Main.html";
   }
 }
 
